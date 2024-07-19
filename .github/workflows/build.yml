@@ -9,8 +9,8 @@ on:
 jobs:
   build:
     name: Build Website
-    #runs-on: ubuntu-latest
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
+    #runs-on: windows-latest
 
     steps:
       # 检出 Git 仓库
@@ -27,7 +27,7 @@ jobs:
       - name: Copy .env.example
         run: |
           if (-not (Test-Path .env)) {
-            Copy-Item .env.example .env
+            cp .env.example .env
           } else {
             Write-Host ".env file already exists. Skipping the copy step."
           }

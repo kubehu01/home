@@ -26,11 +26,11 @@ jobs:
       # 复制环境变量文件
       - name: Copy .env.example
         run: |
-          if (-not (Test-Path .env)) {
+          if [[ ! -f .env ]]; then
             cp .env.example .env
-          } else {
-            Write-Host ".env file already exists. Skipping the copy step."
-          }
+          else
+            echo ".env file already exists. Skipping the copy step."
+          fi
       # 安装项目依赖
       - name: Install Dependencies
         run: npm install

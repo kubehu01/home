@@ -13,5 +13,10 @@
     "icon": "Book",
     "name": "网址集",
     "link": "https://link.jing.xj.cn/"
+  },
+  {
+    "icon": "Blog",
+    "name": "网址集",
+    "link": "https://www.chenjiao.xyz:28443/"
   }
 ]

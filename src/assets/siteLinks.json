@@ -2,12 +2,12 @@
   {
     "icon": "Blog",
     "name": "鄙人的博客",
-    "link": "https://blog.jing.xj.cn/"
+    "link": "https://www.chenjiao.site:28443"
   },
   {
     "icon": "Compass",
     "name": "起始页",
-    "link": "https://www.jing.xj.cn/"
+    "link": "https://app.chenjiao.site"
   },
   {
     "icon": "Book",
@@ -16,7 +16,7 @@
   },
   {
     "icon": "Blog",
-    "name": "胡佬blog",
-    "link": "https://www.chenjiao.site:28443"
+    "name": "#佬blog",
+    "link": "https://blog.jing.xj.cn/"
   }
 ]

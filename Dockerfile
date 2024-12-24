@@ -7,7 +7,7 @@ COPY . .
 RUN [ ! -e ".env" ] && cp .env.example .env || true
 RUN npm run build
 
-# 最小化镜 像
+# 最小化镜像
 FROM node:18-alpine
 WORKDIR /app
 COPY --from=builder /app/dist ./dist
